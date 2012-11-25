@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+}
+input[type="submit"] {
+  display: none;
+}
+input[name="msg"] {
+  width: 30em;
+}
+#ctrl {
+  list-style: none;
+  padding: 0;
+  font-size: 75%;
+}
+#ctrl li {
+  display: inline;
+}
+#ctrl li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  display: inline;
+}
+#log {
+  margin-top: 1em;
+}
+#log > div {
+  margin-bottom: 1em;
+}
+#log > div > div > span {
+  overflow: hidden;
+  display: inline-block;
+  font-size: 90%;
+}
+#log .at {
+  font-size: 80%;
+  color: #ccc;
+}
+#log .user {
+  max-width: 10em;
+  margin-right: 0.5em;
+  white-space: nowrap;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+}
+#log .text {
+  margin-left: 0.5em;
+  font-weight: bold;
+}
+div.new {
+  color: #f00;
+}
